@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Are you sure to delete messages?"; ObjectID = "V87-g0-4O1"; */
+"V87-g0-4O1.text" = "Are you sure to delete messages?";
+
+/* Class = "UIButton"; normalTitle = "Yes"; ObjectID = "VSw-jx-bx2"; */
+"VSw-jx-bx2.normalTitle" = "Yes";
+
+/* Class = "UIButton"; normalTitle = "No"; ObjectID = "zyi-Zg-AJk"; */
+"zyi-Zg-AJk.normalTitle" = "No";

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="lato.bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SwipeLimitView" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="264"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kM1-hD-9gu">
+                    <rect key="frame" x="0.0" y="0.0" width="380" height="264"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sidebar-menu-bg" translatesAutoresizingMaskIntoConstraints="NO" id="bdS-5G-mpx">
+                            <rect key="frame" x="8" y="6" width="364" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="GeW-b0-Llp"/>
+                                <constraint firstAttribute="width" constant="364" id="epo-fc-5Xm"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-icon" translatesAutoresizingMaskIntoConstraints="NO" id="cns-kg-nj9">
+                            <rect key="frame" x="170" y="20" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="BV3-Ue-a9w"/>
+                                <constraint firstAttribute="width" constant="40" id="yA9-ek-MzB"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe limit over, kindly come back tomorrow or you can buy our membership plans for unlimited swipes." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHA-4J-lLm">
+                            <rect key="frame" x="8" y="121" width="364" height="61"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dvV-Wk-AbX">
+                            <rect key="frame" x="8" y="202" width="364" height="40"/>
+                            <color key="backgroundColor" red="0.98823529409999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="8lk-G6-hvH"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                            <state key="normal" title="Buy Now" backgroundImage="BackColor">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="buyBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Mum-1i-Z4J"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOh-Qo-dQh">
+                            <rect key="frame" x="8" y="202" width="364" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="rl6-Lt-oXZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="16"/>
+                            <state key="normal" title="Cancel" backgroundImage="NextButton">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="JRz-2m-ucG"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Out of swipe !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yz-g4-CDG">
+                            <rect key="frame" x="133" y="68" width="114" height="20"/>
+                            <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="bdS-5G-mpx" secondAttribute="trailing" constant="8" id="39b-Ex-vQq"/>
+                        <constraint firstItem="bdS-5G-mpx" firstAttribute="leading" secondItem="kM1-hD-9gu" secondAttribute="leading" constant="8" id="4xF-sP-NB7"/>
+                        <constraint firstItem="cns-kg-nj9" firstAttribute="top" secondItem="kM1-hD-9gu" secondAttribute="top" constant="20" symbolic="YES" id="6oO-U5-ZIl"/>
+                        <constraint firstItem="FHA-4J-lLm" firstAttribute="top" secondItem="bdS-5G-mpx" secondAttribute="bottom" constant="15" id="AEg-eb-MQn"/>
+                        <constraint firstItem="bOh-Qo-dQh" firstAttribute="width" secondItem="dvV-Wk-AbX" secondAttribute="width" id="FYq-BR-MvH"/>
+                        <constraint firstItem="FHA-4J-lLm" firstAttribute="leading" secondItem="bdS-5G-mpx" secondAttribute="leading" id="JlX-Cd-nkO"/>
+                        <constraint firstItem="FHA-4J-lLm" firstAttribute="trailing" secondItem="bdS-5G-mpx" secondAttribute="trailing" id="NZ1-tv-N9c"/>
+                        <constraint firstItem="bdS-5G-mpx" firstAttribute="top" secondItem="kM1-hD-9gu" secondAttribute="top" constant="6" id="V0j-xo-fUw"/>
+                        <constraint firstItem="dvV-Wk-AbX" firstAttribute="leading" secondItem="FHA-4J-lLm" secondAttribute="leading" id="bC5-th-TIs"/>
+                        <constraint firstItem="dvV-Wk-AbX" firstAttribute="top" secondItem="FHA-4J-lLm" secondAttribute="bottom" constant="20" id="e2O-mh-0ym"/>
+                        <constraint firstItem="bOh-Qo-dQh" firstAttribute="top" secondItem="FHA-4J-lLm" secondAttribute="bottom" constant="20" id="elm-qW-Fm9"/>
+                        <constraint firstItem="8Yz-g4-CDG" firstAttribute="top" secondItem="cns-kg-nj9" secondAttribute="bottom" constant="8" symbolic="YES" id="gk9-fy-qe5"/>
+                        <constraint firstItem="cns-kg-nj9" firstAttribute="centerX" secondItem="bdS-5G-mpx" secondAttribute="centerX" id="lWW-Dz-8E7"/>
+                        <constraint firstItem="8Yz-g4-CDG" firstAttribute="centerX" secondItem="cns-kg-nj9" secondAttribute="centerX" id="pGE-DU-0ma"/>
+                        <constraint firstItem="bOh-Qo-dQh" firstAttribute="trailing" secondItem="FHA-4J-lLm" secondAttribute="trailing" id="t3l-85-qRu"/>
+                        <constraint firstAttribute="trailing" secondItem="dvV-Wk-AbX" secondAttribute="trailing" constant="8" id="tpF-pC-5TO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="kM1-hD-9gu" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="APX-R5-Lu4"/>
+                <constraint firstItem="kM1-hD-9gu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ffO-fz-t1K"/>
+                <constraint firstItem="kM1-hD-9gu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="pbV-LE-bP9"/>
+                <constraint firstItem="kM1-hD-9gu" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="vd7-rf-xte"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buyBtn" destination="dvV-Wk-AbX" id="CZN-4X-b7b"/>
+                <outlet property="cancelBtn" destination="bOh-Qo-dQh" id="SeR-n7-Yn5"/>
+                <outlet property="contentView" destination="kM1-hD-9gu" id="sVH-Fw-up4"/>
+                <outlet property="iconImg" destination="cns-kg-nj9" id="i7m-RO-Fr3"/>
+                <outlet property="outOfSwipeLbl" destination="8Yz-g4-CDG" id="ktm-Je-HFZ"/>
+                <outlet property="outOfSwipeMsgLbl" destination="FHA-4J-lLm" id="tpJ-tG-qcd"/>
+            </connections>
+            <point key="canvasLocation" x="-72" y="238"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackColor" width="122.5" height="31.5"/>
+        <image name="NextButton" width="124" height="31.5"/>
+        <image name="logo-icon" width="124" height="124"/>
+        <image name="sidebar-menu-bg" width="327" height="112"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

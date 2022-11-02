@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = " Female"; ObjectID = "3Mv-zF-Zs1"; */
+"3Mv-zF-Zs1.normalTitle" = " Female";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "84J-Gd-jfX"; */
+"84J-Gd-jfX.text" = "Password";
+
+/* Class = "UILabel"; text = "Email ID"; ObjectID = "BSa-MB-Tx9"; */
+"BSa-MB-Tx9.text" = "Email ID";
+
+/* Class = "UIButton"; normalTitle = " Transsexual"; ObjectID = "Bap-T2-qUE"; */
+"Bap-T2-qUE.normalTitle" = " Transsexual";
+
+/* Class = "UIButton"; normalTitle = " Male"; ObjectID = "RqC-o4-qgc"; */
+"RqC-o4-qgc.normalTitle" = " Male";
+
+/* Class = "UILabel"; text = "D.O.B"; ObjectID = "TiY-xO-dfD"; */
+"TiY-xO-dfD.text" = "D.O.B";
+
+/* Class = "UILabel"; text = "Confirm Password"; ObjectID = "Zbz-r9-Zzj"; */
+"Zbz-r9-Zzj.text" = "Confirm Password";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "bgb-6h-aCo"; */
+"bgb-6h-aCo.text" = "Gender";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "jIN-OK-WMQ"; */
+"jIN-OK-WMQ.text" = "Phone Number";
+
+/* Class = "UIButton"; normalTitle = "  Signup"; ObjectID = "uJY-x7-FnP"; */
+"uJY-x7-FnP.normalTitle" = "  Signup";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "xCF-ND-npX"; */
+"xCF-ND-npX.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "y8A-vR-906"; */
+"y8A-vR-906.text" = "Full Name";

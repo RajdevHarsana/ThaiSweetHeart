@@ -1,0 +1,129 @@
+
+/* Class = "UITextField"; placeholder = "Favorite Music"; ObjectID = "3Ua-qS-X2n"; */
+"3Ua-qS-X2n.placeholder" = "Favorite Music";
+
+/* Class = "UIButton"; normalTitle = " On special occasion"; ObjectID = "5mg-dk-e91"; */
+"5mg-dk-e91.normalTitle" = " On special occasion";
+
+/* Class = "UIButton"; normalTitle = " Occasional smoker"; ObjectID = "6bT-Ql-qGu"; */
+"6bT-Ql-qGu.normalTitle" = " Occasional smoker";
+
+/* Class = "UILabel"; text = "Do you want tyo have children?"; ObjectID = "90z-Rl-yO5"; */
+"90z-Rl-yO5.text" = "Do you want tyo have children?";
+
+/* Class = "UIButton"; normalTitle = " Several times a week"; ObjectID = "BmV-pL-4jp"; */
+"BmV-pL-4jp.normalTitle" = " Several times a week";
+
+/* Class = "UIButton"; normalTitle = " Someday"; ObjectID = "EOH-vU-XwK"; */
+"EOH-vU-XwK.normalTitle" = " Someday";
+
+/* Class = "UIButton"; normalTitle = " Definitely"; ObjectID = "IW0-fH-OLV"; */
+"IW0-fH-OLV.normalTitle" = " Definitely";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "K0g-pH-Yeq"; */
+"K0g-pH-Yeq.normalTitle" = "Next";
+
+/* Class = "UIButton"; normalTitle = " Any"; ObjectID = "Mwp-9l-G4L"; */
+"Mwp-9l-G4L.normalTitle" = " Any";
+
+/* Class = "UIButton"; normalTitle = " Trying to quit"; ObjectID = "Nab-Mo-9kO"; */
+"Nab-Mo-9kO.normalTitle" = " Trying to quit";
+
+/* Class = "UITextField"; placeholder = "Favorite sport"; ObjectID = "OKA-U4-nx4"; */
+"OKA-U4-nx4.placeholder" = "Favorite sport";
+
+/* Class = "UIButton"; normalTitle = " Non-smoker"; ObjectID = "OWE-Xp-zrv"; */
+"OWE-Xp-zrv.normalTitle" = " Non-smoker";
+
+/* Class = "UITextField"; placeholder = "Favorite Spend Time"; ObjectID = "Omv-j5-DFz"; */
+"Omv-j5-DFz.placeholder" = "Favorite Spend Time";
+
+/* Class = "UILabel"; text = "Habits and interests"; ObjectID = "P15-jG-S6U"; */
+"P15-jG-S6U.text" = "Habits and interests";
+
+/* Class = "UIButton"; normalTitle = " Any"; ObjectID = "QJO-J1-DQY"; */
+"QJO-J1-DQY.normalTitle" = " Any";
+
+/* Class = "UILabel"; text = "Smoking"; ObjectID = "QOk-70-xHV"; */
+"QOk-70-xHV.text" = "Smoking";
+
+/* Class = "UIButton"; normalTitle = " Daily"; ObjectID = "RdO-w7-1YD"; */
+"RdO-w7-1YD.normalTitle" = " Daily";
+
+/* Class = "UITextField"; placeholder = "Favorite Like"; ObjectID = "Spw-EP-Irz"; */
+"Spw-EP-Irz.placeholder" = "Favorite Like";
+
+/* Class = "UIButton"; normalTitle = " No Answer"; ObjectID = "UKx-iG-k5w"; */
+"UKx-iG-k5w.normalTitle" = " No Answer";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "UmY-i1-In1"; */
+"UmY-i1-In1.normalTitle" = "Done";
+
+/* Class = "UITextField"; placeholder = "Favorite vacations"; ObjectID = "XJU-vb-b3p"; */
+"XJU-vb-b3p.placeholder" = "Favorite vacations";
+
+/* Class = "UILabel"; text = "How do you workout?"; ObjectID = "ZQF-H8-uEc"; */
+"ZQF-H8-uEc.text" = "How do you workout?";
+
+/* Class = "UILabel"; text = "I Like"; ObjectID = "Zwz-ES-YIf"; */
+"Zwz-ES-YIf.text" = "I Like";
+
+/* Class = "UILabel"; text = "Like Pets"; ObjectID = "cEc-fy-PBk"; */
+"cEc-fy-PBk.text" = "Like Pets";
+
+/* Class = "UIButton"; normalTitle = " Several times a month"; ObjectID = "e2V-r6-6FB"; */
+"e2V-r6-6FB.normalTitle" = " Several times a month";
+
+/* Class = "UIButton"; normalTitle = " No Pet"; ObjectID = "eN7-bX-e3k"; */
+"eN7-bX-e3k.normalTitle" = " No Pet";
+
+/* Class = "UIButton"; normalTitle = " Every day"; ObjectID = "ebw-6y-9PC"; */
+"ebw-6y-9PC.normalTitle" = " Every day";
+
+/* Class = "UILabel"; text = "I Spend My Free Time"; ObjectID = "epe-Wt-QOd"; */
+"epe-Wt-QOd.text" = "I Spend My Free Time";
+
+/* Class = "UIButton"; normalTitle = " Once a week"; ObjectID = "jLU-JX-Vze"; */
+"jLU-JX-Vze.normalTitle" = " Once a week";
+
+/* Class = "UIButton"; normalTitle = " Dog"; ObjectID = "kxq-oX-c7X"; */
+"kxq-oX-c7X.normalTitle" = " Dog";
+
+/* Class = "UILabel"; text = "Music"; ObjectID = "ky9-yL-fyR"; */
+"ky9-yL-fyR.text" = "Music";
+
+/* Class = "UIButton"; normalTitle = " Fish"; ObjectID = "mM9-s5-30c"; */
+"mM9-s5-30c.normalTitle" = " Fish";
+
+/* Class = "UIButton"; normalTitle = " No"; ObjectID = "mSy-yJ-GnM"; */
+"mSy-yJ-GnM.normalTitle" = " No";
+
+/* Class = "UILabel"; text = "Favorite sport"; ObjectID = "nfv-P8-34h"; */
+"nfv-P8-34h.text" = "Favorite sport";
+
+/* Class = "UILabel"; text = "Vacations"; ObjectID = "oAc-Wm-lx1"; */
+"oAc-Wm-lx1.text" = "Vacations";
+
+/* Class = "UIButton"; normalTitle = " Few times a week"; ObjectID = "oEL-xx-mgo"; */
+"oEL-xx-mgo.normalTitle" = " Few times a week";
+
+/* Class = "UILabel"; text = "Drinking"; ObjectID = "qdv-dF-Zf8"; */
+"qdv-dF-Zf8.text" = "Drinking";
+
+/* Class = "UILabel"; text = "Select Sport"; ObjectID = "qk1-Eg-xz7"; */
+"qk1-Eg-xz7.text" = "Select Sport";
+
+/* Class = "UIButton"; normalTitle = " Smoker"; ObjectID = "sd0-AA-fUG"; */
+"sd0-AA-fUG.normalTitle" = " Smoker";
+
+/* Class = "UIButton"; normalTitle = " Less often"; ObjectID = "sei-aT-8LV"; */
+"sei-aT-8LV.normalTitle" = " Less often";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "tXK-VZ-qEI"; */
+"tXK-VZ-qEI.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = " Bird"; ObjectID = "y01-1S-BSo"; */
+"y01-1S-BSo.normalTitle" = " Bird";
+
+/* Class = "UIButton"; normalTitle = " Cat"; ObjectID = "zZV-5Q-SMw"; */
+"zZV-5Q-SMw.normalTitle" = " Cat";

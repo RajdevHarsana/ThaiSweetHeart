@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "Choose File"; ObjectID = "0mU-D4-0Kb"; */
+"0mU-D4-0Kb.text" = "Choose File";
+
+/* Class = "UIButton"; normalTitle = " Transsexual"; ObjectID = "0rY-Jq-w4M"; */
+"0rY-Jq-w4M.normalTitle" = " Transsexual";
+
+/* Class = "UIButton"; normalTitle = "Choose File"; ObjectID = "1Ka-mX-Z2s"; */
+"1Ka-mX-Z2s.normalTitle" = "Choose File";
+
+/* Class = "UIButton"; normalTitle = " Female"; ObjectID = "2lE-Uy-LjN"; */
+"2lE-Uy-LjN.normalTitle" = " Female";
+
+/* Class = "UILabel"; text = "Set build"; ObjectID = "5hG-ub-Dsq"; */
+"5hG-ub-Dsq.text" = "Set build";
+
+/* Class = "UITextField"; placeholder = "Min"; ObjectID = "6UX-La-vBg"; */
+"6UX-La-vBg.placeholder" = "Min";
+
+/* Class = "UIButton"; normalTitle = " Male"; ObjectID = "88l-ir-sdu"; */
+"88l-ir-sdu.normalTitle" = " Male";
+
+/* Class = "UITextField"; placeholder = "Select your marital status"; ObjectID = "8vw-qQ-bTn"; */
+"8vw-qQ-bTn.placeholder" = "Select your marital status";
+
+/* Class = "UIButton"; normalTitle = " Yes, they sometimes live with me"; ObjectID = "BuR-5s-Pkk"; */
+"BuR-5s-Pkk.normalTitle" = " Yes, they sometimes live with me";
+
+/* Class = "UILabel"; text = "Gender"; ObjectID = "DVp-s2-iQr"; */
+"DVp-s2-iQr.text" = "Gender";
+
+/* Class = "UILabel"; text = "Choose File"; ObjectID = "Dp3-ay-XFu"; */
+"Dp3-ay-XFu.text" = "Choose File";
+
+/* Class = "UILabel"; text = "Physical appearance"; ObjectID = "Eef-hl-g0p"; */
+"Eef-hl-g0p.text" = "Physical appearance";
+
+/* Class = "UIButton"; normalTitle = " No"; ObjectID = "FxI-JU-wbX"; */
+"FxI-JU-wbX.normalTitle" = " No";
+
+/* Class = "UITextField"; placeholder = "Max"; ObjectID = "HWo-Ku-aKy"; */
+"HWo-Ku-aKy.placeholder" = "Max";
+
+/* Class = "UITextField"; placeholder = "Full name"; ObjectID = "I97-1Z-6kk"; */
+"I97-1Z-6kk.placeholder" = "Full name";
+
+/* Class = "UITextField"; placeholder = "State"; ObjectID = "KAJ-PU-SdP"; */
+"KAJ-PU-SdP.placeholder" = "State";
+
+/* Class = "UILabel"; text = "Work Details"; ObjectID = "Ltb-gL-Yi0"; */
+"Ltb-gL-Yi0.text" = "Work Details";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "NEr-1t-BSt"; */
+"NEr-1t-BSt.text" = "Location";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "ODu-TI-mJc"; */
+"ODu-TI-mJc.text" = "About";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "RI3-pH-edZ"; */
+"RI3-pH-edZ.placeholder" = "Country";
+
+/* Class = "UILabel"; text = "Ethnicity"; ObjectID = "SjC-Id-IjF"; */
+"SjC-Id-IjF.text" = "Ethnicity";
+
+/* Class = "UITextField"; placeholder = "Degree"; ObjectID = "XFf-ce-ARU"; */
+"XFf-ce-ARU.placeholder" = "Degree";
+
+/* Class = "UILabel"; text = "Marital status"; ObjectID = "XHw-6O-ILf"; */
+"XHw-6O-ILf.text" = "Marital status";
+
+/* Class = "UILabel"; text = "Upload Videos"; ObjectID = "XLy-ri-j4b"; */
+"XLy-ri-j4b.text" = "Upload Videos";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "Y8b-8a-zX5"; */
+"Y8b-8a-zX5.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "Height"; ObjectID = "YaW-Zt-xtD"; */
+"YaW-Zt-xtD.text" = "Height";
+
+/* Class = "UILabel"; text = "Full Name"; ObjectID = "ZaJ-IP-xqx"; */
+"ZaJ-IP-xqx.text" = "Full Name";
+
+/* Class = "UILabel"; text = "Upload Pictures"; ObjectID = "ZnL-W4-iDu"; */
+"ZnL-W4-iDu.text" = "Upload Pictures";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "aVL-uu-sVo"; */
+"aVL-uu-sVo.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Personal information"; ObjectID = "cju-Lj-Jjc"; */
+"cju-Lj-Jjc.text" = "Personal information";
+
+/* Class = "UILabel"; text = "Have children"; ObjectID = "dgr-Px-i1S"; */
+"dgr-Px-i1S.text" = "Have children";
+
+/* Class = "UITextField"; placeholder = "Ethnicity"; ObjectID = "li2-So-OfA"; */
+"li2-So-OfA.placeholder" = "Ethnicity";
+
+/* Class = "UITextField"; placeholder = "Occupation"; ObjectID = "mpw-OL-icu"; */
+"mpw-OL-icu.placeholder" = "Occupation";
+
+/* Class = "UILabel"; text = "Education details"; ObjectID = "nM1-CH-s06"; */
+"nM1-CH-s06.text" = "Education details";
+
+/* Class = "UITextField"; placeholder = "City"; ObjectID = "px9-1q-4GY"; */
+"px9-1q-4GY.placeholder" = "City";
+
+/* Class = "UIButton"; normalTitle = "Choose File"; ObjectID = "rA7-Jr-5jn"; */
+"rA7-Jr-5jn.normalTitle" = "Choose File";
+
+/* Class = "UILabel"; text = "D.O.B"; ObjectID = "tF5-WQ-qVT"; */
+"tF5-WQ-qVT.text" = "D.O.B";
+
+/* Class = "UITextField"; placeholder = "Religion"; ObjectID = "tJM-mw-dz6"; */
+"tJM-mw-dz6.placeholder" = "Religion";
+
+/* Class = "UITextField"; placeholder = "Build"; ObjectID = "uXO-0C-ae4"; */
+"uXO-0C-ae4.placeholder" = "Build";
+
+/* Class = "UIButton"; normalTitle = " Yes, they live with me"; ObjectID = "ucE-r9-HMo"; */
+"ucE-r9-HMo.normalTitle" = " Yes, they live with me";
+
+/* Class = "UIButton"; normalTitle = "Habits & Interests"; ObjectID = "uhe-sG-xQL"; */
+"uhe-sG-xQL.normalTitle" = "Habits & Interests";
+
+/* Class = "UILabel"; text = "Religion"; ObjectID = "vzO-OC-e6j"; */
+"vzO-OC-e6j.text" = "Religion";
+
+/* Class = "UITextField"; placeholder = "D.O.B"; ObjectID = "wLh-Bs-8V6"; */
+"wLh-Bs-8V6.placeholder" = "D.O.B";

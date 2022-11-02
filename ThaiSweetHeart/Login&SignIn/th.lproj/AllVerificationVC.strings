@@ -1,0 +1,33 @@
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "2cl-FU-JzN"; */
+"2cl-FU-JzN.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Enter your phone number OTP"; ObjectID = "2g8-BW-nQB"; */
+"2g8-BW-nQB.text" = "Enter your phone number OTP";
+
+/* Class = "UIButton"; normalTitle = "VERIFY"; ObjectID = "50f-iX-Nr1"; */
+"50f-iX-Nr1.normalTitle" = "VERIFY";
+
+/* Class = "UILabel"; text = "Didn't recevie the email OTP?"; ObjectID = "E1r-JF-wL6"; */
+"E1r-JF-wL6.text" = "Didn't recevie the email OTP?";
+
+/* Class = "UILabel"; text = "Didn't recevie the phone OTP?"; ObjectID = "Ett-8P-aec"; */
+"Ett-8P-aec.text" = "Didn't recevie the phone OTP?";
+
+/* Class = "UITextField"; placeholder = "OTP"; ObjectID = "R1e-nO-jCq"; */
+"R1e-nO-jCq.placeholder" = "OTP";
+
+/* Class = "UIButton"; normalTitle = "Resend Code"; ObjectID = "Zj6-JI-brg"; */
+"Zj6-JI-brg.normalTitle" = "Resend Code";
+
+/* Class = "UITextField"; placeholder = "OTP"; ObjectID = "c7A-r8-G0h"; */
+"c7A-r8-G0h.placeholder" = "OTP";
+
+/* Class = "UILabel"; text = "Enter your email OTP"; ObjectID = "ekb-iI-UHh"; */
+"ekb-iI-UHh.text" = "Enter your email OTP";
+
+/* Class = "UIButton"; normalTitle = "Resend Code"; ObjectID = "mce-en-Vdw"; */
+"mce-en-Vdw.normalTitle" = "Resend Code";
+
+/* Class = "UILabel"; text = "Enter OTP"; ObjectID = "oNr-cH-spn"; */
+"oNr-cH-spn.text" = "Enter OTP";

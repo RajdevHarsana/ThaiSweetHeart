@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RequestVerificationVC" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <connections>
+                <outlet property="getVerifiedBtn" destination="WGl-Ud-ufj" id="AyU-BE-74X"/>
+                <outlet property="profileImage" destination="91w-1k-chX" id="sis-QU-dRQ"/>
+                <outlet property="profileImg1" destination="EH8-zV-BkA" id="Pj1-vR-HeZ"/>
+                <outlet property="profilevcImgleftConst" destination="pyE-o3-6Gs" id="53c-4D-0hO"/>
+                <outlet property="uploadImgBtn" destination="hgd-wZ-xcR" id="Zly-V6-EDw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y03-nY-U4W">
+                    <rect key="frame" x="20" y="64" width="374" height="47"/>
+                    <string key="text">A Verified badges is a check that appears next to your name to indicate that the account is the authentic presence of the user on the platform.</string>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a selfie copying the gesture in the photo below to get verified." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Inv-ed-XJX">
+                    <rect key="frame" x="20" y="131" width="374" height="31.5"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="91w-1k-chX">
+                    <rect key="frame" x="20" y="182.5" width="374" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="QhP-it-2Xn"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgd-wZ-xcR">
+                    <rect key="frame" x="20" y="402.5" width="374" height="45"/>
+                    <color key="backgroundColor" red="0.97254901960784312" green="0.55294117647058827" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="h6X-fv-Ks4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="UPLOAD IMAGE">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="uploadBtnAction:" destination="-1" eventType="touchUpInside" id="HUP-6X-wCc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGl-Ud-ufj">
+                    <rect key="frame" x="20" y="467.5" width="374" height="45"/>
+                    <color key="backgroundColor" red="0.44705882352941173" green="0.85882352941176465" blue="0.91764705882352937" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="xGw-cw-b1L"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="SUBMIT">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="getVerifiedBtnAction:" destination="-1" eventType="touchUpInside" id="VZe-wT-7Dn"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EH8-zV-BkA">
+                    <rect key="frame" x="20" y="182.5" width="374" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="slR-Q7-O0a"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WGl-Ud-ufj" secondAttribute="trailing" constant="20" id="0Kd-iM-HBb"/>
+                <constraint firstItem="91w-1k-chX" firstAttribute="top" secondItem="Inv-ed-XJX" secondAttribute="bottom" constant="20" id="73Q-Lr-h8Z"/>
+                <constraint firstItem="Inv-ed-XJX" firstAttribute="top" secondItem="y03-nY-U4W" secondAttribute="bottom" constant="20" id="ETd-ch-q1a"/>
+                <constraint firstItem="WGl-Ud-ufj" firstAttribute="top" secondItem="hgd-wZ-xcR" secondAttribute="bottom" constant="20" id="Edh-os-Pkb"/>
+                <constraint firstItem="EH8-zV-BkA" firstAttribute="top" secondItem="Inv-ed-XJX" secondAttribute="bottom" constant="20" id="Hjh-UB-JHD"/>
+                <constraint firstItem="EH8-zV-BkA" firstAttribute="trailing" secondItem="Inv-ed-XJX" secondAttribute="trailing" id="Q4Y-0e-UXw"/>
+                <constraint firstItem="hgd-wZ-xcR" firstAttribute="leading" secondItem="91w-1k-chX" secondAttribute="leading" id="XWg-r0-nPP"/>
+                <constraint firstItem="91w-1k-chX" firstAttribute="leading" secondItem="Inv-ed-XJX" secondAttribute="leading" id="XzO-f7-GVa"/>
+                <constraint firstItem="y03-nY-U4W" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="aNh-hB-QAq"/>
+                <constraint firstItem="Inv-ed-XJX" firstAttribute="leading" secondItem="y03-nY-U4W" secondAttribute="leading" id="cC8-b7-g0U"/>
+                <constraint firstItem="y03-nY-U4W" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="cGo-xW-cqu"/>
+                <constraint firstItem="EH8-zV-BkA" firstAttribute="width" secondItem="91w-1k-chX" secondAttribute="width" id="dpa-63-Qnq"/>
+                <constraint firstItem="WGl-Ud-ufj" firstAttribute="leading" secondItem="hgd-wZ-xcR" secondAttribute="leading" id="fXX-OE-Rh2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hgd-wZ-xcR" secondAttribute="trailing" constant="20" id="ixF-IO-cYX"/>
+                <constraint firstItem="Inv-ed-XJX" firstAttribute="trailing" secondItem="y03-nY-U4W" secondAttribute="trailing" id="kx3-d5-erI"/>
+                <constraint firstItem="EH8-zV-BkA" firstAttribute="height" secondItem="91w-1k-chX" secondAttribute="height" id="lRM-vo-u7J"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="91w-1k-chX" secondAttribute="trailing" constant="20" id="pyE-o3-6Gs"/>
+                <constraint firstItem="hgd-wZ-xcR" firstAttribute="top" secondItem="91w-1k-chX" secondAttribute="bottom" constant="20" id="uAW-k6-4Ug"/>
+                <constraint firstAttribute="trailing" secondItem="y03-nY-U4W" secondAttribute="trailing" constant="20" id="yxz-Dt-g53"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="131.8840579710145" y="93.75"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

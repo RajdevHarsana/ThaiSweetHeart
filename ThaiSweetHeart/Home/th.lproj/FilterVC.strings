@@ -1,0 +1,117 @@
+
+/* Class = "UILabel"; text = "Like Pets"; ObjectID = "05b-EQ-zTt"; */
+"05b-EQ-zTt.text" = "Like Pets";
+
+/* Class = "UILabel"; text = "Max Height"; ObjectID = "1DR-HO-fBm"; */
+"1DR-HO-fBm.text" = "Max Height";
+
+/* Class = "UIButton"; normalTitle = "Apply"; ObjectID = "2SO-BF-n0I"; */
+"2SO-BF-n0I.normalTitle" = "Apply";
+
+/* Class = "UIButton"; normalTitle = "Clear"; ObjectID = "2Y7-Jf-Hn5"; */
+"2Y7-Jf-Hn5.normalTitle" = "Clear";
+
+/* Class = "UILabel"; text = "Select Sport"; ObjectID = "3CA-Py-3BI"; */
+"3CA-Py-3BI.text" = "Select Sport";
+
+/* Class = "UIButton"; normalTitle = " No"; ObjectID = "4Zh-O1-dPJ"; */
+"4Zh-O1-dPJ.normalTitle" = " No";
+
+/* Class = "UIButton"; normalTitle = " Trying to quit"; ObjectID = "6gw-tz-I2x"; */
+"6gw-tz-I2x.normalTitle" = " Trying to quit";
+
+/* Class = "UITextField"; placeholder = "Max"; ObjectID = "6rn-yU-HXZ"; */
+"6rn-yU-HXZ.placeholder" = "Max";
+
+/* Class = "UIButton"; normalTitle = " Fish"; ObjectID = "8Gx-s1-itq"; */
+"8Gx-s1-itq.normalTitle" = " Fish";
+
+/* Class = "UIButton"; normalTitle = " Occasional smoker"; ObjectID = "97o-si-Iu9"; */
+"97o-si-Iu9.normalTitle" = " Occasional smoker";
+
+/* Class = "UILabel"; text = "Location Radius"; ObjectID = "A8r-lI-vab"; */
+"A8r-lI-vab.text" = "Location Radius";
+
+/* Class = "UIButton"; normalTitle = " Daily"; ObjectID = "B5p-cI-VNw"; */
+"B5p-cI-VNw.normalTitle" = " Daily";
+
+/* Class = "UIButton"; normalTitle = " Smoker"; ObjectID = "Cuq-Rd-1X6"; */
+"Cuq-Rd-1X6.normalTitle" = " Smoker";
+
+/* Class = "UIButton"; normalTitle = "Done"; ObjectID = "E6i-Hw-umh"; */
+"E6i-Hw-umh.normalTitle" = "Done";
+
+/* Class = "UIButton"; normalTitle = " Cat"; ObjectID = "EJN-le-oap"; */
+"EJN-le-oap.normalTitle" = " Cat";
+
+/* Class = "UIButton"; normalTitle = " Any"; ObjectID = "Fsa-l8-bFr"; */
+"Fsa-l8-bFr.normalTitle" = " Any";
+
+/* Class = "UIButton"; normalTitle = " No Pet"; ObjectID = "HbT-vM-xDV"; */
+"HbT-vM-xDV.normalTitle" = " No Pet";
+
+/* Class = "UITextField"; placeholder = "Feet"; ObjectID = "KhX-VW-cgl"; */
+"KhX-VW-cgl.placeholder" = "Feet";
+
+/* Class = "UIButton"; normalTitle = " Dog"; ObjectID = "MPV-mZ-H58"; */
+"MPV-mZ-H58.normalTitle" = " Dog";
+
+/* Class = "UIButton"; normalTitle = " Bird"; ObjectID = "Orp-0k-zYP"; */
+"Orp-0k-zYP.normalTitle" = " Bird";
+
+/* Class = "UIButton"; normalTitle = " Yes"; ObjectID = "Oxj-FC-jsv"; */
+"Oxj-FC-jsv.normalTitle" = " Yes";
+
+/* Class = "UIButton"; normalTitle = " Few times a week"; ObjectID = "PYa-fA-KPr"; */
+"PYa-fA-KPr.normalTitle" = " Few times a week";
+
+/* Class = "UIButton"; normalTitle = " Any"; ObjectID = "QQS-1E-7kC"; */
+"QQS-1E-7kC.normalTitle" = " Any";
+
+/* Class = "UILabel"; text = "Smoking"; ObjectID = "SHg-eU-MUf"; */
+"SHg-eU-MUf.text" = "Smoking";
+
+/* Class = "UILabel"; text = "Filter"; ObjectID = "XE4-k8-wA9"; */
+"XE4-k8-wA9.text" = "Filter";
+
+/* Class = "UIButton"; normalTitle = " Non-smoker"; ObjectID = "bKc-qx-xRj"; */
+"bKc-qx-xRj.normalTitle" = " Non-smoker";
+
+/* Class = "UIButton"; normalTitle = " Once a week"; ObjectID = "bb6-sp-e8g"; */
+"bb6-sp-e8g.normalTitle" = " Once a week";
+
+/* Class = "UITextField"; placeholder = "Feet"; ObjectID = "buC-Fl-VZ0"; */
+"buC-Fl-VZ0.placeholder" = "Feet";
+
+/* Class = "UITextField"; placeholder = "Inches"; ObjectID = "dgh-ob-owU"; */
+"dgh-ob-owU.placeholder" = "Inches";
+
+/* Class = "UILabel"; text = "Online Users"; ObjectID = "fJn-xs-EOw"; */
+"fJn-xs-EOw.text" = "Online Users";
+
+/* Class = "UITextField"; placeholder = "Inches"; ObjectID = "gZv-gh-Kf5"; */
+"gZv-gh-Kf5.placeholder" = "Inches";
+
+/* Class = "UILabel"; text = "Min Height"; ObjectID = "hIe-jz-BGN"; */
+"hIe-jz-BGN.text" = "Min Height";
+
+/* Class = "UILabel"; text = "10 KM"; ObjectID = "jEE-ai-Yr9"; */
+"jEE-ai-Yr9.text" = "10 KM";
+
+/* Class = "UITextField"; placeholder = "Min"; ObjectID = "kgX-8d-WVc"; */
+"kgX-8d-WVc.placeholder" = "Min";
+
+/* Class = "UILabel"; text = "Age Range"; ObjectID = "mxv-HU-vne"; */
+"mxv-HU-vne.text" = "Age Range";
+
+/* Class = "UILabel"; text = "Height Range"; ObjectID = "sNp-pF-iDa"; */
+"sNp-pF-iDa.text" = "Height Range";
+
+/* Class = "UILabel"; text = "Favorite Sport"; ObjectID = "tqc-Kq-Big"; */
+"tqc-Kq-Big.text" = "Favorite Sport";
+
+/* Class = "UIButton"; normalTitle = " On special occasion"; ObjectID = "xWa-Jz-TcY"; */
+"xWa-Jz-TcY.normalTitle" = " On special occasion";
+
+/* Class = "UILabel"; text = "Drinking"; ObjectID = "yeC-yP-i2l"; */
+"yeC-yP-i2l.text" = "Drinking";

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="lato.bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DeleteMessagePopUp" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="142"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fxv-4x-RiY">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="142"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Are you sure to delete messages?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V87-g0-4O1">
+                            <rect key="frame" x="15" y="25" width="270" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSw-jx-bx2">
+                            <rect key="frame" x="15" y="85.5" width="121.5" height="40"/>
+                            <color key="backgroundColor" red="0.98823529409999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="ybg-zo-xnd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                            <state key="normal" title="Yes" backgroundImage="BackColor">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="yesBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="LwG-8j-VnV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zyi-Zg-AJk">
+                            <rect key="frame" x="162.5" y="85.5" width="122.5" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="XCh-74-cRn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                            <state key="normal" title="No" backgroundImage="NextButton">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="noBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="qul-Y6-bca"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="zyi-Zg-AJk" firstAttribute="leading" secondItem="VSw-jx-bx2" secondAttribute="trailing" constant="26" id="IjI-9P-t3A"/>
+                        <constraint firstItem="V87-g0-4O1" firstAttribute="top" secondItem="fxv-4x-RiY" secondAttribute="top" constant="25" id="Rly-AP-pWz"/>
+                        <constraint firstItem="VSw-jx-bx2" firstAttribute="top" secondItem="V87-g0-4O1" secondAttribute="bottom" constant="40" id="VOI-ZY-Kvk"/>
+                        <constraint firstItem="zyi-Zg-AJk" firstAttribute="top" secondItem="V87-g0-4O1" secondAttribute="bottom" constant="40" id="Xkv-SF-KXg"/>
+                        <constraint firstItem="zyi-Zg-AJk" firstAttribute="width" secondItem="VSw-jx-bx2" secondAttribute="width" constant="1" id="c15-jJ-FX1"/>
+                        <constraint firstAttribute="trailing" secondItem="V87-g0-4O1" secondAttribute="trailing" constant="15" id="dng-7e-fVf"/>
+                        <constraint firstItem="V87-g0-4O1" firstAttribute="leading" secondItem="fxv-4x-RiY" secondAttribute="leading" constant="15" id="hWw-je-LnP"/>
+                        <constraint firstItem="VSw-jx-bx2" firstAttribute="leading" secondItem="V87-g0-4O1" secondAttribute="leading" id="nq1-0U-a2S"/>
+                        <constraint firstItem="zyi-Zg-AJk" firstAttribute="trailing" secondItem="V87-g0-4O1" secondAttribute="trailing" id="wsR-a2-1wI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fxv-4x-RiY" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="1Ur-Wq-cYA"/>
+                <constraint firstItem="fxv-4x-RiY" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5ZM-AH-zNi"/>
+                <constraint firstItem="fxv-4x-RiY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Jal-BX-byI"/>
+                <constraint firstItem="fxv-4x-RiY" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="fvP-8D-lag"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="msglbl" destination="V87-g0-4O1" id="2Yf-fi-aUY"/>
+                <outlet property="noBtn" destination="zyi-Zg-AJk" id="03k-Fh-UI7"/>
+                <outlet property="topView" destination="fxv-4x-RiY" id="wHw-Zt-HRi"/>
+                <outlet property="yesBtn" destination="VSw-jx-bx2" id="IBM-qL-oZJ"/>
+            </connections>
+            <point key="canvasLocation" x="214.49275362318843" y="336.16071428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackColor" width="122.5" height="31.5"/>
+        <image name="NextButton" width="124" height="31.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

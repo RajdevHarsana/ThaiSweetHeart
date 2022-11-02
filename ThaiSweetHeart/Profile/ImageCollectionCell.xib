@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ImageCollectionCell" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="164"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="164"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kie-YT-sIc" customClass="MyImageView" customModule="ThaiSweetHeart" customModuleProvider="target">
+                        <rect key="frame" x="5" y="10" width="154" height="144"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grh-jD-4be">
+                        <rect key="frame" x="140" y="9" width="20" height="20"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sidebar-menu-bg" translatesAutoresizingMaskIntoConstraints="NO" id="Rev-Ve-eUL">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="close-1" translatesAutoresizingMaskIntoConstraints="NO" id="6Zu-jN-B3k">
+                                <rect key="frame" x="6" y="6" width="8" height="8"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GPG-2h-q2O" customClass="ResponsiveButton" customModule="ThaiSweetHeart" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Rev-Ve-eUL" firstAttribute="top" secondItem="grh-jD-4be" secondAttribute="top" id="0ZQ-FD-9zr"/>
+                            <constraint firstItem="Rev-Ve-eUL" firstAttribute="leading" secondItem="grh-jD-4be" secondAttribute="leading" id="1VV-X1-h3u"/>
+                            <constraint firstAttribute="trailing" secondItem="GPG-2h-q2O" secondAttribute="trailing" id="1pO-eu-4CA"/>
+                            <constraint firstAttribute="bottom" secondItem="Rev-Ve-eUL" secondAttribute="bottom" id="3C6-NO-e0A"/>
+                            <constraint firstItem="GPG-2h-q2O" firstAttribute="top" secondItem="grh-jD-4be" secondAttribute="top" id="9HB-P8-bTE"/>
+                            <constraint firstAttribute="bottom" secondItem="6Zu-jN-B3k" secondAttribute="bottom" constant="6" id="Cy2-T2-s0H"/>
+                            <constraint firstAttribute="trailing" secondItem="6Zu-jN-B3k" secondAttribute="trailing" constant="6" id="L30-JB-mFB"/>
+                            <constraint firstItem="6Zu-jN-B3k" firstAttribute="top" secondItem="grh-jD-4be" secondAttribute="top" constant="6" id="PpG-to-9Cu"/>
+                            <constraint firstAttribute="height" constant="20" id="RYQ-yT-5Yr"/>
+                            <constraint firstAttribute="width" constant="20" id="U8k-Qi-l9t"/>
+                            <constraint firstItem="GPG-2h-q2O" firstAttribute="leading" secondItem="grh-jD-4be" secondAttribute="leading" id="YuQ-hW-zsk"/>
+                            <constraint firstAttribute="bottom" secondItem="GPG-2h-q2O" secondAttribute="bottom" id="pV2-G6-8d5"/>
+                            <constraint firstAttribute="trailing" secondItem="Rev-Ve-eUL" secondAttribute="trailing" id="vdz-rJ-eFe"/>
+                            <constraint firstItem="6Zu-jN-B3k" firstAttribute="leading" secondItem="grh-jD-4be" secondAttribute="leading" constant="6" id="xEa-Ei-Jv9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="kie-YT-sIc" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="15z-52-hWd"/>
+                <constraint firstItem="kie-YT-sIc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="3qw-fi-Nxs"/>
+                <constraint firstAttribute="trailing" secondItem="kie-YT-sIc" secondAttribute="trailing" constant="5" id="Df8-4b-enY"/>
+                <constraint firstItem="grh-jD-4be" firstAttribute="trailing" secondItem="kie-YT-sIc" secondAttribute="trailing" constant="1" id="MQr-BO-E8v"/>
+                <constraint firstAttribute="bottom" secondItem="kie-YT-sIc" secondAttribute="bottom" constant="10" id="fPh-JL-QMd"/>
+                <constraint firstItem="grh-jD-4be" firstAttribute="top" secondItem="kie-YT-sIc" secondAttribute="top" constant="-1" id="oAK-dE-O8Q"/>
+            </constraints>
+            <size key="customSize" width="203" height="164"/>
+            <connections>
+                <outlet property="CrossButton" destination="GPG-2h-q2O" id="oxN-LE-Y05"/>
+                <outlet property="ImgView" destination="kie-YT-sIc" id="MKZ-d7-Vzc"/>
+                <outlet property="crossBtnView" destination="grh-jD-4be" id="Hqh-lp-WPN"/>
+                <outlet property="crossImgbk" destination="Rev-Ve-eUL" id="bQl-0P-6Xk"/>
+            </connections>
+            <point key="canvasLocation" x="-124" y="-24"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="close-1" width="32" height="32"/>
+        <image name="sidebar-menu-bg" width="327" height="112"/>
+    </resources>
+</document>

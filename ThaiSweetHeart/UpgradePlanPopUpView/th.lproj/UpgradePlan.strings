@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Buy"; ObjectID = "5bv-eX-Yaq"; */
+"5bv-eX-Yaq.normalTitle" = "Buy";
+
+/* Class = "UILabel"; text = "To unlock this feature please buy our memership plan"; ObjectID = "HvD-6E-zCg"; */
+"HvD-6E-zCg.text" = "To unlock this feature please buy our memership plan";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "KxJ-sw-hWE"; */
+"KxJ-sw-hWE.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Upgrade Plan"; ObjectID = "b2r-jg-suI"; */
+"b2r-jg-suI.text" = "Upgrade Plan";

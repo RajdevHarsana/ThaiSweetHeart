@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "To unlock this feature please buy our gold membership plan"; ObjectID = "ApP-bM-zcc"; */
+"ApP-bM-zcc.text" = "To unlock this feature please buy our gold membership plan";
+
+/* Class = "UIButton"; normalTitle = "Buy"; ObjectID = "Odc-iU-yke"; */
+"Odc-iU-yke.normalTitle" = "Buy";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "TC1-kX-xa0"; */
+"TC1-kX-xa0.normalTitle" = "Cancel";
+
+/* Class = "UILabel"; text = "Gold Membership"; ObjectID = "kSR-3F-kNT"; */
+"kSR-3F-kNT.text" = "Gold Membership";

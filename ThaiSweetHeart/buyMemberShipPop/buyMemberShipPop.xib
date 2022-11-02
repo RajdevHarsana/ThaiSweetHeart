@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="lato.bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+        <array key="lato.medium.ttf">
+            <string>Lato-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="l4m-Z7-wSS" customClass="buyMemberShipPop" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="157"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EGA-0e-cYp">
+                    <rect key="frame" x="0.0" y="0.0" width="350" height="157"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold-bg1" translatesAutoresizingMaskIntoConstraints="NO" id="JPF-HC-CUx">
+                            <rect key="frame" x="0.0" y="0.0" width="350" height="157"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy membership" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BKZ-L5-Kgr">
+                            <rect key="frame" x="20" y="30" width="310" height="24"/>
+                            <fontDescription key="fontDescription" name="Lato-Medium" family="Lato" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hn-NV-eoa">
+                            <rect key="frame" x="20" y="84" width="142" height="40"/>
+                            <color key="backgroundColor" red="0.98823529409999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="edj-NJ-o3g"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                            <state key="normal" title="Yes">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="yesBtnAction:" destination="l4m-Z7-wSS" eventType="touchUpInside" id="h15-5X-shK"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GuM-sO-AEB">
+                            <rect key="frame" x="188" y="84" width="142" height="40"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="UfY-tC-h3d"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                            <state key="normal" title="No">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="noBtnAction:" destination="l4m-Z7-wSS" eventType="touchUpInside" id="9bf-d5-q2m"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="7hn-NV-eoa" firstAttribute="top" secondItem="BKZ-L5-Kgr" secondAttribute="bottom" constant="30" id="4tI-ad-iKW"/>
+                        <constraint firstItem="BKZ-L5-Kgr" firstAttribute="leading" secondItem="EGA-0e-cYp" secondAttribute="leading" constant="20" id="6Ff-k1-Jj2"/>
+                        <constraint firstItem="GuM-sO-AEB" firstAttribute="width" secondItem="7hn-NV-eoa" secondAttribute="width" id="6Uy-oo-ofx"/>
+                        <constraint firstItem="GuM-sO-AEB" firstAttribute="top" secondItem="BKZ-L5-Kgr" secondAttribute="bottom" constant="30" id="OM3-Eg-pPl"/>
+                        <constraint firstItem="GuM-sO-AEB" firstAttribute="trailing" secondItem="BKZ-L5-Kgr" secondAttribute="trailing" id="SrO-5S-mz5"/>
+                        <constraint firstItem="7hn-NV-eoa" firstAttribute="leading" secondItem="BKZ-L5-Kgr" secondAttribute="leading" id="Zww-tk-8C8"/>
+                        <constraint firstItem="GuM-sO-AEB" firstAttribute="leading" secondItem="7hn-NV-eoa" secondAttribute="trailing" constant="26" id="aLH-99-VbD"/>
+                        <constraint firstAttribute="trailing" secondItem="JPF-HC-CUx" secondAttribute="trailing" id="cW5-a5-OIA"/>
+                        <constraint firstItem="JPF-HC-CUx" firstAttribute="leading" secondItem="EGA-0e-cYp" secondAttribute="leading" id="cuk-4O-mSO"/>
+                        <constraint firstAttribute="bottom" secondItem="JPF-HC-CUx" secondAttribute="bottom" id="evY-a5-Bn5"/>
+                        <constraint firstAttribute="trailing" secondItem="BKZ-L5-Kgr" secondAttribute="trailing" constant="20" id="fWK-gw-8Ga"/>
+                        <constraint firstItem="BKZ-L5-Kgr" firstAttribute="top" secondItem="EGA-0e-cYp" secondAttribute="top" constant="30" id="hxM-vB-yg5"/>
+                        <constraint firstItem="JPF-HC-CUx" firstAttribute="top" secondItem="EGA-0e-cYp" secondAttribute="top" id="vVb-ul-zLB"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="AK3-6n-YUd"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="EGA-0e-cYp" secondAttribute="bottom" id="MGi-wz-VHf"/>
+                <constraint firstAttribute="trailing" secondItem="EGA-0e-cYp" secondAttribute="trailing" id="Mlf-5E-KWx"/>
+                <constraint firstItem="EGA-0e-cYp" firstAttribute="leading" secondItem="l4m-Z7-wSS" secondAttribute="leading" id="itW-QQ-ePK"/>
+                <constraint firstItem="EGA-0e-cYp" firstAttribute="top" secondItem="l4m-Z7-wSS" secondAttribute="top" id="kLO-Et-gyu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="noBtn" destination="GuM-sO-AEB" id="3LN-GJ-0bC"/>
+                <outlet property="popImgView" destination="JPF-HC-CUx" id="1iO-QL-B6i"/>
+                <outlet property="popUpView" destination="EGA-0e-cYp" id="wPX-iB-Cok"/>
+                <outlet property="yesBtn" destination="7hn-NV-eoa" id="kSC-5i-bI9"/>
+            </connections>
+            <point key="canvasLocation" x="65" y="-93"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gold-bg1" width="344" height="166"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

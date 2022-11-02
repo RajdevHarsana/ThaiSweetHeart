@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "VERIFY"; ObjectID = "Mwh-WI-c5R"; */
+"Mwh-WI-c5R.normalTitle" = "VERIFY";
+
+/* Class = "UILabel"; text = "Enter The OTP You Recived To"; ObjectID = "Utg-HJ-d9Z"; */
+"Utg-HJ-d9Z.text" = "Enter The OTP You Recived To";
+
+/* Class = "UIButton"; normalTitle = "   OTP Verification"; ObjectID = "irQ-AC-6Qe"; */
+"irQ-AC-6Qe.normalTitle" = "   OTP Verification";

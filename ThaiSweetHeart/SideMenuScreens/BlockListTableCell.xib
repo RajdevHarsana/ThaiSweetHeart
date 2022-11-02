@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="92" id="KGk-i7-Jjw" customClass="BlockListTableCell" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="385" height="92"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="385" height="92"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNo-0C-7tE" customClass="MyView" customModule="ThaiSweetHeart" customModuleProvider="target">
+                        <rect key="frame" x="10" y="10" width="365" height="78"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="andrew" translatesAutoresizingMaskIntoConstraints="NO" id="LZR-Fp-ryD" customClass="MyImageView" customModule="ThaiSweetHeart" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="62" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="62" id="S5D-fh-97r"/>
+                                    <constraint firstAttribute="height" constant="62" id="v6L-mt-V6z"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                        <real key="value" value="31"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tf-CX-46w" customClass="MyButton" customModule="ThaiSweetHeart" customModuleProvider="target">
+                                <rect key="frame" x="287" y="19" width="70" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6TB-o6-KE0"/>
+                                    <constraint firstAttribute="width" constant="70" id="m1O-bo-Wxx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Unblock">
+                                    <color key="titleColor" systemColor="systemPinkColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                        <real key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hone Ratson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mzv-AH-3V4">
+                                <rect key="frame" x="78" y="17" width="201" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="O0u-KA-Jrn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Simply dummy test of the.." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CFt-js-DUY">
+                                <rect key="frame" x="78" y="38" width="201" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gold" translatesAutoresizingMaskIntoConstraints="NO" id="hK2-Ya-WmW">
+                                <rect key="frame" x="55" y="8" width="15" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="15" id="55w-vm-Fgz"/>
+                                    <constraint firstAttribute="height" constant="15" id="VAy-Dt-NHR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4Tf-CX-46w" secondAttribute="trailing" constant="8" id="2gY-PA-R7X"/>
+                            <constraint firstItem="CFt-js-DUY" firstAttribute="leading" secondItem="Mzv-AH-3V4" secondAttribute="leading" id="528-KB-HOT"/>
+                            <constraint firstItem="4Tf-CX-46w" firstAttribute="leading" secondItem="Mzv-AH-3V4" secondAttribute="trailing" constant="8" symbolic="YES" id="WlL-sb-h0k"/>
+                            <constraint firstItem="hK2-Ya-WmW" firstAttribute="top" secondItem="LZR-Fp-ryD" secondAttribute="top" id="b0r-Z1-1G2"/>
+                            <constraint firstItem="CFt-js-DUY" firstAttribute="top" secondItem="Mzv-AH-3V4" secondAttribute="bottom" id="boB-PW-rhS"/>
+                            <constraint firstAttribute="bottom" secondItem="LZR-Fp-ryD" secondAttribute="bottom" constant="8" id="eXQ-na-EWt"/>
+                            <constraint firstItem="4Tf-CX-46w" firstAttribute="centerY" secondItem="aNo-0C-7tE" secondAttribute="centerY" id="fS9-U6-5t0"/>
+                            <constraint firstItem="Mzv-AH-3V4" firstAttribute="top" secondItem="aNo-0C-7tE" secondAttribute="top" constant="17" id="ozh-Pr-EQK"/>
+                            <constraint firstItem="hK2-Ya-WmW" firstAttribute="trailing" secondItem="LZR-Fp-ryD" secondAttribute="trailing" id="qC1-Th-sGu"/>
+                            <constraint firstItem="LZR-Fp-ryD" firstAttribute="top" secondItem="aNo-0C-7tE" secondAttribute="top" constant="8" id="qvy-dy-xj6"/>
+                            <constraint firstItem="LZR-Fp-ryD" firstAttribute="leading" secondItem="aNo-0C-7tE" secondAttribute="leading" constant="8" id="t1e-bT-KLY"/>
+                            <constraint firstItem="CFt-js-DUY" firstAttribute="trailing" secondItem="Mzv-AH-3V4" secondAttribute="trailing" id="uZL-bT-Wgz"/>
+                            <constraint firstItem="Mzv-AH-3V4" firstAttribute="leading" secondItem="LZR-Fp-ryD" secondAttribute="trailing" constant="8" symbolic="YES" id="z5J-AP-YGn"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="2" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="aNo-0C-7tE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Cu1-87-zF5"/>
+                    <constraint firstAttribute="bottom" secondItem="aNo-0C-7tE" secondAttribute="bottom" constant="4" id="FG6-ar-An9"/>
+                    <constraint firstAttribute="trailing" secondItem="aNo-0C-7tE" secondAttribute="trailing" constant="10" id="GzZ-Vb-4fl"/>
+                    <constraint firstItem="aNo-0C-7tE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="JV1-rC-oUV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descLbl" destination="CFt-js-DUY" id="saL-Hb-U2c"/>
+                <outlet property="goldImg" destination="hK2-Ya-WmW" id="Gc2-fd-2n1"/>
+                <outlet property="imgView" destination="LZR-Fp-ryD" id="Pjl-06-yxd"/>
+                <outlet property="nameLbl" destination="Mzv-AH-3V4" id="eMV-va-0Um"/>
+                <outlet property="unblockButton" destination="4Tf-CX-46w" id="D7i-1E-091"/>
+            </connections>
+            <point key="canvasLocation" x="-9" y="84"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="andrew" width="375" height="458"/>
+        <image name="gold" width="39" height="39"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

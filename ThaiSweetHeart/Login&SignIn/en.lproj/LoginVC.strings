@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "4dr-JS-9Ng"; */
+"4dr-JS-9Ng.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "OR LOGIN WITH"; ObjectID = "8Sv-Qm-QsV"; */
+"8Sv-Qm-QsV.text" = "OR LOGIN WITH";
+
+/* Class = "UILabel"; text = "Email id / Phone Number"; ObjectID = "EjF-jZ-k1D"; */
+"EjF-jZ-k1D.text" = "Email id / Phone Number";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "QAa-U6-Qoo"; */
+"QAa-U6-Qoo.normalTitle" = "LOGIN";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "QmX-T6-2uB"; */
+"QmX-T6-2uB.text" = "Password";
+
+/* Class = "UILabel"; text = "Remember me"; ObjectID = "pry-aI-5UR"; */
+"pry-aI-5UR.text" = "Remember me";
+
+/* Class = "UISegmentedControl"; yAh-SO-kIm.segmentTitles[0] = "Email"; ObjectID = "yAh-SO-kIm"; */
+"yAh-SO-kIm.segmentTitles[0]" = "Email";
+
+/* Class = "UISegmentedControl"; yAh-SO-kIm.segmentTitles[1] = "Phone Number"; ObjectID = "yAh-SO-kIm"; */
+"yAh-SO-kIm.segmentTitles[1]" = "Phone Number";

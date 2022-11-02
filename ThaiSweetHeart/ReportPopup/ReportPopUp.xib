@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="lato.bold.ttf">
+            <string>Lato-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ReportPopUp" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MbV-MT-apd">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="250"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLs-HF-UGz">
+                            <rect key="frame" x="103" y="15" width="94.5" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                            <color key="textColor" red="0.8419148326" green="0.0" blue="0.13207468389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter your reason" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ap7-1L-FQq">
+                            <rect key="frame" x="25" y="48" width="250" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dO-F9-Qro">
+                            <rect key="frame" x="25" y="187" width="111.5" height="40"/>
+                            <color key="backgroundColor" red="0.98823529409999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="srh-hl-CP7"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                            <state key="normal" title="Submit" backgroundImage="BackColor">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="yesBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="oUa-qO-XFb"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbI-89-oNV">
+                            <rect key="frame" x="162.5" y="187" width="112.5" height="40"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="ha6-A2-pRC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
+                            <state key="normal" title="Cancel" backgroundImage="NextButton">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="noBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="vj4-mX-vRw"/>
+                            </connections>
+                        </button>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="v9A-0w-c4V">
+                            <rect key="frame" x="25" y="76" width="250" height="100"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="ujA-w4-pY4"/>
+                            </constraints>
+                            <color key="textColor" systemColor="labelColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="CbI-89-oNV" firstAttribute="top" secondItem="v9A-0w-c4V" secondAttribute="bottom" constant="11" id="3sG-wd-5bj"/>
+                        <constraint firstItem="2dO-F9-Qro" firstAttribute="top" secondItem="v9A-0w-c4V" secondAttribute="bottom" constant="11" id="BGS-ke-JU1"/>
+                        <constraint firstItem="CbI-89-oNV" firstAttribute="leading" secondItem="2dO-F9-Qro" secondAttribute="trailing" constant="26" id="CCc-WG-olV"/>
+                        <constraint firstItem="ap7-1L-FQq" firstAttribute="top" secondItem="hLs-HF-UGz" secondAttribute="bottom" constant="12" id="LY1-rF-Pg9"/>
+                        <constraint firstItem="hLs-HF-UGz" firstAttribute="centerX" secondItem="MbV-MT-apd" secondAttribute="centerX" id="NaQ-t7-Qi2"/>
+                        <constraint firstItem="CbI-89-oNV" firstAttribute="trailing" secondItem="v9A-0w-c4V" secondAttribute="trailing" id="Rtm-kZ-wbe"/>
+                        <constraint firstItem="ap7-1L-FQq" firstAttribute="leading" secondItem="MbV-MT-apd" secondAttribute="leading" constant="25" id="XVK-Jm-jmu"/>
+                        <constraint firstItem="2dO-F9-Qro" firstAttribute="leading" secondItem="v9A-0w-c4V" secondAttribute="leading" id="afY-pM-5kK"/>
+                        <constraint firstItem="v9A-0w-c4V" firstAttribute="leading" secondItem="ap7-1L-FQq" secondAttribute="leading" id="c6L-dY-AhJ"/>
+                        <constraint firstItem="CbI-89-oNV" firstAttribute="width" secondItem="2dO-F9-Qro" secondAttribute="width" constant="1" id="hjC-Pp-g1z"/>
+                        <constraint firstItem="v9A-0w-c4V" firstAttribute="top" secondItem="ap7-1L-FQq" secondAttribute="bottom" constant="10" id="qzl-Nv-bRG"/>
+                        <constraint firstAttribute="trailing" secondItem="ap7-1L-FQq" secondAttribute="trailing" constant="25" id="rPr-cN-25s"/>
+                        <constraint firstItem="v9A-0w-c4V" firstAttribute="trailing" secondItem="ap7-1L-FQq" secondAttribute="trailing" id="rfI-G7-zji"/>
+                        <constraint firstItem="hLs-HF-UGz" firstAttribute="top" secondItem="MbV-MT-apd" secondAttribute="top" constant="15" id="wQO-wI-3Fo"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="MbV-MT-apd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="G1v-oJ-ZTe"/>
+                <constraint firstItem="MbV-MT-apd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="KIm-xk-ut9"/>
+                <constraint firstAttribute="trailing" secondItem="MbV-MT-apd" secondAttribute="trailing" id="MU7-Uf-SoL"/>
+                <constraint firstAttribute="bottom" secondItem="MbV-MT-apd" secondAttribute="bottom" id="jT8-zO-gXu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="msglbl" destination="ap7-1L-FQq" id="TRQ-pC-ZP1"/>
+                <outlet property="noBtn" destination="CbI-89-oNV" id="eEu-1b-SaF"/>
+                <outlet property="reportTxtFeild" destination="v9A-0w-c4V" id="QNP-kT-rQ3"/>
+                <outlet property="topView" destination="MbV-MT-apd" id="r51-qk-1KB"/>
+                <outlet property="yesBtn" destination="2dO-F9-Qro" id="WQu-ps-PF4"/>
+            </connections>
+            <point key="canvasLocation" x="28" y="-46"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackColor" width="122.5" height="31.5"/>
+        <image name="NextButton" width="124" height="31.5"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

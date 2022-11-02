@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WelcomePopUp" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="379" height="261"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CBZ-zp-BT2">
+                    <rect key="frame" x="0.0" y="0.0" width="379" height="261"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Header" translatesAutoresizingMaskIntoConstraints="NO" id="MAZ-p6-eTc">
+                            <rect key="frame" x="166.5" y="10" width="46" height="46"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="0fq-17-0P5"/>
+                                <constraint firstAttribute="height" constant="46" id="YTL-z2-QRY"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Thai Sweetheart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aQ-Hg-Vw9">
+                            <rect key="frame" x="15" y="71" width="349" height="24"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9b7-BX-gIX">
+                            <rect key="frame" x="15" y="110" width="349" height="81.5"/>
+                            <string key="text"> Your 60 days free trials begains from now. You will get fixed number of swipes per day. To unlock more features please upgrade to our membership plans.</string>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4SI-ap-vJf">
+                            <rect key="frame" x="134.5" y="206.5" width="110" height="34"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="Fse-Qe-Iux"/>
+                                <constraint firstAttribute="width" constant="110" id="bLk-OJ-lnl"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                            <state key="normal" title="Okay">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="okayBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="Y9p-3K-FLa"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemTealColor"/>
+                    <constraints>
+                        <constraint firstItem="4SI-ap-vJf" firstAttribute="centerX" secondItem="9b7-BX-gIX" secondAttribute="centerX" id="0zA-KS-dds"/>
+                        <constraint firstItem="4aQ-Hg-Vw9" firstAttribute="leading" secondItem="CBZ-zp-BT2" secondAttribute="leading" constant="15" id="7cV-t8-whK"/>
+                        <constraint firstItem="MAZ-p6-eTc" firstAttribute="top" secondItem="CBZ-zp-BT2" secondAttribute="top" constant="10" id="86K-2L-79a"/>
+                        <constraint firstItem="4aQ-Hg-Vw9" firstAttribute="top" secondItem="MAZ-p6-eTc" secondAttribute="bottom" constant="15" id="IJu-sL-fqK"/>
+                        <constraint firstItem="4SI-ap-vJf" firstAttribute="top" secondItem="9b7-BX-gIX" secondAttribute="bottom" constant="15" id="O8L-rz-gyv"/>
+                        <constraint firstAttribute="trailing" secondItem="4aQ-Hg-Vw9" secondAttribute="trailing" constant="15" id="ZOH-7Y-jAc"/>
+                        <constraint firstItem="MAZ-p6-eTc" firstAttribute="centerX" secondItem="CBZ-zp-BT2" secondAttribute="centerX" id="fn6-5R-oud"/>
+                        <constraint firstItem="9b7-BX-gIX" firstAttribute="top" secondItem="4aQ-Hg-Vw9" secondAttribute="bottom" constant="15" id="mAo-w7-goY"/>
+                        <constraint firstItem="9b7-BX-gIX" firstAttribute="leading" secondItem="4aQ-Hg-Vw9" secondAttribute="leading" id="q0O-QO-C6W"/>
+                        <constraint firstItem="9b7-BX-gIX" firstAttribute="trailing" secondItem="4aQ-Hg-Vw9" secondAttribute="trailing" id="rsz-cS-x9n"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CBZ-zp-BT2" secondAttribute="trailing" id="D9M-hh-kYw"/>
+                <constraint firstItem="CBZ-zp-BT2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="KYz-RR-SOT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="CBZ-zp-BT2" secondAttribute="bottom" id="Thn-YY-rmB"/>
+                <constraint firstItem="CBZ-zp-BT2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="v8X-tl-Hd3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="logoImage" destination="MAZ-p6-eTc" id="bfl-mI-Xbb"/>
+                <outlet property="okayBtn" destination="4SI-ap-vJf" id="yLn-m4-rYn"/>
+                <outlet property="popUpView" destination="CBZ-zp-BT2" id="gau-jY-VQk"/>
+                <outlet property="welcomeMsgLbl" destination="9b7-BX-gIX" id="Kcj-eb-MYO"/>
+                <outlet property="welocomeLbl" destination="4aQ-Hg-Vw9" id="Vpp-0J-30P"/>
+            </connections>
+            <point key="canvasLocation" x="149" y="100"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Header" width="124" height="124"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

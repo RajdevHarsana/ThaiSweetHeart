@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "VERIFY"; ObjectID = "Mwh-WI-c5R"; */
+"Mwh-WI-c5R.normalTitle" = "VERIFY";
+
+/* Class = "UILabel"; text = "Enter The OTP You Recived To"; ObjectID = "Utg-HJ-d9Z"; */
+"Utg-HJ-d9Z.text" = "Enter The OTP You Recived To";
+
+/* Class = "UILabel"; text = "Didn't got the OTP yet? "; ObjectID = "cv0-dj-DTG"; */
+"cv0-dj-DTG.text" = "Didn't got the OTP yet? ";
+
+/* Class = "UIButton"; normalTitle = "   OTP Verification"; ObjectID = "irQ-AC-6Qe"; */
+"irQ-AC-6Qe.normalTitle" = "   OTP Verification";
+
+/* Class = "UIButton"; normalTitle = "Resend OTP "; ObjectID = "yQE-uO-UiO"; */
+"yQE-uO-UiO.normalTitle" = "Resend OTP ";

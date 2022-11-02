@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RequestVerify" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dxX-dG-XdJ">
+                    <rect key="frame" x="0.0" y="0.0" width="250" height="300"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verify" translatesAutoresizingMaskIntoConstraints="NO" id="iAF-bF-PrK">
+                            <rect key="frame" x="77.5" y="130" width="95" height="95"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="95" id="PAf-45-V1G"/>
+                                <constraint firstAttribute="height" constant="95" id="hy3-H0-bgl"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbc-bK-0A4">
+                            <rect key="frame" x="25" y="34" width="200" height="20.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your account verification request has been submitted successfully. Please wait for admin approval." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKH-uq-Ubw">
+                            <rect key="frame" x="8" y="64.5" width="234" height="50.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dD3-WS-zBS">
+                            <rect key="frame" x="50" y="240" width="150" height="35"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="Y2M-Bj-8Cn"/>
+                                <constraint firstAttribute="height" constant="35" id="mS5-Vj-bo1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <state key="normal" title="OKAY">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="okayBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="A2p-g7-QWL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="iAF-bF-PrK" firstAttribute="top" secondItem="CKH-uq-Ubw" secondAttribute="bottom" constant="15" id="8W9-j2-7V4"/>
+                        <constraint firstAttribute="bottom" secondItem="dD3-WS-zBS" secondAttribute="bottom" constant="25" id="ABV-Ae-gKt"/>
+                        <constraint firstAttribute="trailing" secondItem="CKH-uq-Ubw" secondAttribute="trailing" constant="8" id="AMH-Ly-DSa"/>
+                        <constraint firstItem="dD3-WS-zBS" firstAttribute="top" secondItem="iAF-bF-PrK" secondAttribute="bottom" constant="15" id="Bhu-UX-gu2"/>
+                        <constraint firstItem="CKH-uq-Ubw" firstAttribute="top" secondItem="rbc-bK-0A4" secondAttribute="bottom" constant="10" id="Iu5-l8-o99"/>
+                        <constraint firstItem="CKH-uq-Ubw" firstAttribute="leading" secondItem="dxX-dG-XdJ" secondAttribute="leading" constant="8" id="LWe-dR-YMb"/>
+                        <constraint firstItem="rbc-bK-0A4" firstAttribute="leading" secondItem="dxX-dG-XdJ" secondAttribute="leading" constant="25" id="V1B-vD-9tU"/>
+                        <constraint firstItem="iAF-bF-PrK" firstAttribute="centerX" secondItem="CKH-uq-Ubw" secondAttribute="centerX" id="XIP-fz-S54"/>
+                        <constraint firstItem="dD3-WS-zBS" firstAttribute="centerX" secondItem="iAF-bF-PrK" secondAttribute="centerX" id="o51-Wl-cr5"/>
+                        <constraint firstAttribute="trailing" secondItem="rbc-bK-0A4" secondAttribute="trailing" constant="25" id="uxo-bG-Z6s"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="dxX-dG-XdJ" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9QA-Wb-jds"/>
+                <constraint firstItem="dxX-dG-XdJ" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="F6z-Na-L1Z"/>
+                <constraint firstItem="dxX-dG-XdJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GfH-bT-yoZ"/>
+                <constraint firstItem="dxX-dG-XdJ" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Rh9-sh-aXK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="MsgLbl" destination="CKH-uq-Ubw" id="nmx-1m-vc7"/>
+                <outlet property="TitleLbl" destination="rbc-bK-0A4" id="mFt-5c-Nrz"/>
+                <outlet property="logoImage" destination="iAF-bF-PrK" id="jrN-wJ-0ds"/>
+                <outlet property="okayBtn" destination="dD3-WS-zBS" id="XpJ-Qw-Ev6"/>
+                <outlet property="popUpView" destination="dxX-dG-XdJ" id="Ftu-Yb-NlM"/>
+            </connections>
+            <point key="canvasLocation" x="164" y="127"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="verify" width="64" height="64"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

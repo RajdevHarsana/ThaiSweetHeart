@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Out of swipe !"; ObjectID = "8Yz-g4-CDG"; */
+"8Yz-g4-CDG.text" = "Out of swipe !";
+
+/* Class = "UILabel"; text = "Swipe limit over, kindly come back tomorrow or you can buy our membership plans for unlimited swipes."; ObjectID = "FHA-4J-lLm"; */
+"FHA-4J-lLm.text" = "Swipe limit over, kindly come back tomorrow or you can buy our membership plans for unlimited swipes.";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "bOh-Qo-dQh"; */
+"bOh-Qo-dQh.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Buy membership"; ObjectID = "dvV-Wk-AbX"; */
+"dvV-Wk-AbX.normalTitle" = "Buy membership";

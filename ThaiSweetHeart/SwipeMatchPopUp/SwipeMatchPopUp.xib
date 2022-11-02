@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SwipeMatchPopUp" customModule="ThaiSweetHeart" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="159"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IT'S A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sWv-MZ-2MZ">
+                    <rect key="frame" x="10" y="10" width="160" height="18"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-MediumItalic" family="Helvetica Neue" pointSize="15"/>
+                    <color key="textColor" red="0.935395062" green="0.52222335340000003" blue="0.66639536619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MATCH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6GJ-lk-lgz">
+                    <rect key="frame" x="10" y="30" width="160" height="28"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-BoldItalic" family="Helvetica Neue" pointSize="23"/>
+                    <color key="textColor" red="0.935395062" green="0.52222335340000003" blue="0.66639536619999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Utw-Gb-rye">
+                    <rect key="frame" x="12" y="68" width="156" height="35"/>
+                    <color key="backgroundColor" red="0.99193590880000004" green="0.92532891039999998" blue="0.69926899669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="PQQ-pi-jYT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="Send Message">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="sendMsgBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="mDF-Ip-vya"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRx-KZ-NYL">
+                    <rect key="frame" x="12" y="113" width="156" height="35"/>
+                    <color key="backgroundColor" red="0.87863618139999999" green="0.96268445250000001" blue="0.99551457170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="5OM-iQ-2bZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <state key="normal" title="Keep Swiping">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="keepSwipingBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="NxN-3e-UVF"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="kRx-KZ-NYL" firstAttribute="top" secondItem="Utw-Gb-rye" secondAttribute="bottom" constant="10" id="2am-rN-B2i"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Utw-Gb-rye" secondAttribute="trailing" constant="12" id="7jy-gc-X5r"/>
+                <constraint firstItem="Utw-Gb-rye" firstAttribute="top" secondItem="6GJ-lk-lgz" secondAttribute="bottom" constant="10" id="9Wj-1A-Sau"/>
+                <constraint firstItem="Utw-Gb-rye" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="9pZ-Fr-BLg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="kRx-KZ-NYL" secondAttribute="bottom" constant="11" id="BKm-8B-5e3"/>
+                <constraint firstItem="sWv-MZ-2MZ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="ChA-gd-q9x"/>
+                <constraint firstItem="6GJ-lk-lgz" firstAttribute="top" secondItem="sWv-MZ-2MZ" secondAttribute="bottom" constant="2" id="Yxz-tz-SMh"/>
+                <constraint firstAttribute="trailing" secondItem="sWv-MZ-2MZ" secondAttribute="trailing" constant="10" id="Z7l-iy-6Gj"/>
+                <constraint firstItem="6GJ-lk-lgz" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="aGz-VC-qfg"/>
+                <constraint firstItem="kRx-KZ-NYL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="bmv-7g-obM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="kRx-KZ-NYL" secondAttribute="trailing" constant="12" id="fiR-d5-jds"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="6GJ-lk-lgz" secondAttribute="trailing" constant="10" id="mSk-vC-axJ"/>
+                <constraint firstItem="sWv-MZ-2MZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="uDc-gT-wwb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="keepSwipingBtn" destination="kRx-KZ-NYL" id="aa4-9P-oeO"/>
+                <outlet property="sendMsgBtn" destination="Utw-Gb-rye" id="Urh-jE-aGw"/>
+            </connections>
+            <point key="canvasLocation" x="17" y="-10"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
